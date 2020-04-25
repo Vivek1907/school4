@@ -1,0 +1,160 @@
+body{
+    background-color: orangered;
+    padding:40px;
+}
+
+.header{
+    padding:50px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.header h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: cooper;
+    color:#ff0000;
+    position:relative;
+}
+
+.header p{
+    position:absolute;
+    right:10%;
+    top:20%;
+    font-size:30px;
+    font-family: monospace;
+    color:lightgreen;
+    font-style:italic;
+    font-style: bold;
+}
+
+.menu{
+    position:absolute;
+    top:25%;
+    right:40%;
+    background-color: maroon;
+    padding:10px 50px;
+    border-radius: 30px;
+    border-top-left-radius: 0px;
+    display:flex;
+}
+
+.menu a{
+    text-decoration: none;
+    color:white;
+    justify-content: space-between;
+    padding-right:30px;
+    font-size:20px;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
+
+.aboutus{
+    background-color: lightgrey;
+    margin-top: 20px;;
+    padding:20px;
+    border-radius: 40px;
+    border-top-left-radius: 0px;
+}
+
+h2{
+    color:navy;
+    font-size:32px;
+    text-align: center;
+    font-family:cooper;
+}
+
+.image{
+    transition: 0.7s;
+    width:80%;
+    position: relative;
+}
+
+.image:hover{
+    opacity: 0.6;
+   }
+
+.image:hover p{
+    opacity: 1;
+    font-size: 20px;
+}
+
+.image p{
+    opacity: 0;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:40%;
+}
+
+.p p{
+    font-size:20px;
+    color: black;
+    opacity:0.8;
+}
+
+.events{
+    background-color: lightgrey;
+    margin-top: 20px;
+    border-radius: 40px;
+    border-top-left-radius: 0px;
+    padding:20px;
+    font-style:BOLD;
+    font-size:25px;
+}
+
+.events ul{
+    font-size:20px;
+}
+
+.events li{
+    color:black;
+    opacity:0.8;
+}
+
+.myexp{
+    padding:20px;
+    border-radius:40px;
+    background-color:lightgrey;
+    border-top-left-radius: 0px;
+    margin-top:20px;
+}
+
+.myexp p{
+    font-size:20px;
+    opacity:0.8;
+}
+
+.selectmenu{
+    background-color:#3498db;
+    padding:10px;
+    border: none;
+    color:#fff;
+    outline:none;
+    position:absolute;
+    top:25%;
+    left:5%;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    font-size: 20px;
+}
+
+li:hover{
+   opacity: 1;
+   font-style: italic;
+   font-family: cooper;
+}
+
+h2:hover{
+    font-style: italic;
+    font-family: cooper;
+ }
+
+ select:hover{
+     transition: 0.8s;
+     background-color: white;
+     color:#3498db;
+     border:1px solid #3498db;
+ }
